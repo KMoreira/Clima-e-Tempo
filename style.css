@@ -9,7 +9,7 @@ body{
 }
 .card{
     width: 90%;
-    max-width: 470px;
+    max-width: 500px;
     background: linear-gradient(132deg, #00feba, #5b548a);
     color: #fff;
     margin: 100px auto 0;
@@ -60,4 +60,24 @@ body{
     font-size: 45px;
     font-weight: 400;
     margin-top: -10px;
+}
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20;
+    margin-top: 50px;
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.col img{
+    width: 40px;
+    margin-right: 10px;
+}
+.humidity, .wind{
+    font-size: 28px;
+    margin-top: -6px;
 }
